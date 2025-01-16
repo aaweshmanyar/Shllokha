@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export function HomePage() {
   return (
     <main className="container mx-auto px-6 py-12">
@@ -25,6 +26,7 @@ export function HomePage() {
           />
         </div>
       </div>
+      
     </main>
   );
 }
