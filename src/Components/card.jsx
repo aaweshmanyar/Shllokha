@@ -1,26 +1,18 @@
 import React from "react";
 
 const Card = ({ children, className }) => (
-  <div className={`bg-white rounded-lg ${className}`}>{children}</div>
+  <div className={`bg-[#e6f2ef] rounded-lg ${className}`}>{children}</div>
 );
 
 export default function Page() {
   return (
-    <div className="min-h-screen bg-pink-50 px-4 py-8 md:px-6 lg:px-8">
+    <div className="min-h-screen bg-[#e6f2ef] px-4 py-8 md:px-6 lg:px-8">
       <main className="mx-auto max-w-5xl space-y-16">
         {/* Podcast Section */}
         <section className="relative">
           <h1 className="mb-8 text-center text-3xl font-semibold text-slate-800">
-            Shlloka - "Body to Being" Podcast
-            <span className="ml-4 inline-block">
-              <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/youtube%20testimonial-5BScyV91ZxXgvMuVyxPM3EhE9lXCWz.png"
-                alt="Decorative leaves"
-                width={100}
-                height={24}
-                className="opacity-80"
-              />
-            </span>
+           See What Our People Love
+           
           </h1>
           <div className="relative">
             {/* Green background accent */}
@@ -40,55 +32,7 @@ export default function Page() {
           </div>
         </section>
 
-        {/* News Paper Clippings Section */}
-        <section>
-          <h2 className="text-center text-2xl font-semibold text-slate-800">
-            News Paper Clippings
-            <span className="ml-4 inline-block">
-              <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/youtube%20testimonial-5BScyV91ZxXgvMuVyxPM3EhE9lXCWz.png"
-                alt="Decorative leaves"
-                width={100}
-                height={24}
-                className="opacity-80"
-              />
-            </span>
-          </h2>
-          <div className="grid grid-cols-1 gap-4 mt-8 md:grid-cols-2 lg:grid-cols-3">
-            <Card className="p-4 shadow-md">
-              <img
-                src="https://via.placeholder.com/300x200"
-                alt="News Clipping 1"
-                className="rounded-md"
-              />
-              <p className="mt-4 text-gray-700">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-            </Card>
-            <Card className="p-4 shadow-md">
-              <img
-                src="https://via.placeholder.com/300x200"
-                alt="News Clipping 2"
-                className="rounded-md"
-              />
-              <p className="mt-4 text-gray-700">
-                Quasi, reprehenderit. Nemo recusandae sapiente aspernatur
-                fugiat!
-              </p>
-            </Card>
-            <Card className="p-4 shadow-md">
-              <img
-                src="https://via.placeholder.com/300x200"
-                alt="News Clipping 3"
-                className="rounded-md"
-              />
-              <p className="mt-4 text-gray-700">
-                Molestias, debitis. Harum quisquam pariatur necessitatibus
-                animi.
-              </p>
-            </Card>
-          </div>
-        </section>
+       
       </main>
     </div>
   );
