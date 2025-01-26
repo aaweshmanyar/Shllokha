@@ -8,14 +8,18 @@ import StorySection from "./Components/ourstory";
 import Gallery from './Components/Gallery'
 import Contact from "./Components/Contactform";
 import Footer from "./Components/Footer";
+import Style from './Components/style';
+import Events from "./Components/Events";
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#e6f2ef]">
+    <div className="min-h-screen bg-white">
       <SiteHeader />
       <HomePage />
+      <Style/>
       <Card/>
       <Carousel/>
+      <Events/>
       <StorySection/>
       <Gallery/>
       <Contact/>

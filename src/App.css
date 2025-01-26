@@ -1,0 +1,16 @@
+body {
+    width: 100%;
+    overflow-x: auto; /* Allow horizontal scrolling */
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.container {
+    width: 100vw; /* Use viewport width unit */
+    overflow-x: auto; /* Allow horizontal scrolling */
+    white-space: nowrap; /* Prevent content wrapping */
+}
+
+img, video, iframe {
+    max-width: 100%;
+    height: auto;
+}
