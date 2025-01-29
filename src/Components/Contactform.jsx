@@ -70,6 +70,16 @@ const ContactForm = () => {
                 />
               </div>
               <div>
+                <label className="block text-sm font-medium text-gray-600">Whatsapp number</label>
+                <input
+                  type="email"
+                  className="w-full p-3 border rounded-lg focus:outline-none focus:ring focus:ring-teal-400"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                />
+              </div>
+              <div>
                 <label className="block text-sm font-medium text-gray-600">Message</label>
                 <textarea
                   className="w-full p-3 border rounded-lg focus:outline-none focus:ring focus:ring-teal-400"
