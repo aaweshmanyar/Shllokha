@@ -30,7 +30,7 @@ const StorySection = () => {
             </p>
           </div>
           <button 
-            className="bg-rose-400 hover:bg-rose-500 text-white px-8 py-2 rounded-md transition-colors"
+            className="bg-[#d3b19a]  text-white px-8 py-2 rounded-md transition-colors"
           >
             Read more
           </button>

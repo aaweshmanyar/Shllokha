@@ -3,25 +3,25 @@ import { Link } from "react-router-dom";
 
 export default function AboutPage() {
   return (
-    <div className="max-w-7xl mx-auto px-4 md:px-6">
+    <div className="max-w-7xl mx-auto px-4 mt-[100px] md:px-6">
       {/* About Us Section */}
       <div className="grid md:grid-cols-2 gap-8 mb-12">
         <div className="relative">
           <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/www.yoglove.in_about-tcMLRg5sLvwAPoVqbPfoqLWKrZUjwl.png"
+            src="https://shlloka.com/wp-content/themes/wsshlloka/assets/images/home/banner2.png"
             alt="Yoga pose"
             className="object-cover w-full h-auto"
           />
         </div>
 
         <div className="space-y-6">
-          <h1 className="text-[#00515E] text-4xl font-semibold">About Us</h1>
-          <p className="text-[#00515E] leading-relaxed">
+          <h1 className="text-[#9e6144] text-4xl font-semibold">About Us</h1>
+          <p className="text-[#000] leading-relaxed">
             YogLove, a beacon of classical yoga tradition in the realm of wellness services, brought to you by the
             esteemed Namami Yoga Foundation. With a steadfast commitment to holistic well-being, YogLove offers a
             comprehensive yoga program tailored for individuals and companies worldwide.
           </p>
-          <p className="text-[#00515E] leading-relaxed">
+          <p className="text-[#000] leading-relaxed">
             At YogLove, authenticity reigns supreme. Rooted deeply in the ancient teachings of classical yoga, our
             classes provide a genuine and enriching experience. Led by the renowned Ira Trivedi, a luminary in the yoga
             and wellness domain in India, our programs embody the essence of pranayama, asana, and dhyana.
@@ -30,7 +30,7 @@ export default function AboutPage() {
       </div>
 
       {/* Vision & Mission Section */}
-      <div className="bg-[#00515E] text-white grid md:grid-cols-2 gap-8 p-12 mb-12">
+      <div className="bg-[#9e6144] text-white grid md:grid-cols-2 gap-8 p-12 mb-12">
         <div className="text-center">
           <h2 className="text-2xl font-semibold mb-4">Vision</h2>
           <p>To make the transformative power of classical yoga accessible to all for holistic well-being.</p>
@@ -45,7 +45,7 @@ export default function AboutPage() {
       <div className="grid md:grid-cols-2 gap-8 mb-12">
         <div className="relative">
           <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/www.yoglove.in_about-tcMLRg5sLvwAPoVqbPfoqLWKrZUjwl.png"
+            src="https://shlloka.com/wp-content/themes/wsshlloka/assets/images/home/banner2.png"
             alt="Founder"
             className="object-cover w-full h-auto"
           />

@@ -1,225 +1,114 @@
 import React from "react";
-
-import { FaInstagram, FaFacebook, FaWhatsapp, FaLine } from "react-icons/fa";
-import logo from "../assets/logo.png";
+import logo from '.././assets/logo.png'
 
 const Footer = () => {
   return (
-    <>
-     
-      {/* Footer Section */}
-      <footer className="bg-black py-10 text-white font-semibold  shadow-lg shadow-heading">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            {/* Footer Brand Section */}
-            <div className="animate-fade-in-up">
-              <div className="flex items-center mb-4">
-                <img
-                  src="https://shlloka.com/wp-content/themes/wsshlloka//assets/images/logo.png"
-                  alt="Logo"
-                  className="w-12 h-12 mr-3 shadow-md shadow-heading rounded-full"
-                />
-                <span className="text-2xl font-bold text-white">
-                  Aadi Yoga Center Phuket
-                </span>
-              </div>
-              <p className="text-sm text-gray-200">
-                Discover tranquility at Aadi Yoga Center in Thailand. From yoga
-                classes to therapy and sound healing, find your path to wellness
-                with us.
-              </p>
-            </div>
-
-            {/* Services and Policies Section */}
-            <div className="animate-fade-in-up delay-200">
-              <h3 className="text-lg font-semibold mb-3 text-white">
-                Services
-              </h3>
-              <ul className="space-y-2">
-                <li>
-                  <a
-                    href="/yogaclass"
-                    className="text-white hover:opacity-65 transition-colors duration-200"
-                  >
-                    Yoga Classes (Private & Group)
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/yogatherapy"
-                    className="text-white hover:opacity-65 transition-colors duration-200"
-                  >
-                    Yoga Therapy
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/kidsyoga"
-                    className="text-white hover:opacity-65 transition-colors duration-200"
-                  >
-                    Kids Yoga
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/yogateacher"
-                    className="text-white hover:opacity-65 transition-colors duration-200"
-                  >
-                    Yoga Teacher
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/trainingcourse"
-                    className="text-white hover:opacity-65 transition-colors duration-200"
-                  >
-                    Training Courses
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/soundhealing"
-                    className="text-white hover:opacity-65 transition-colors duration-200"
-                  >
-                    Sound Healing
-                  </a>
-                </li>
-              </ul>
-              {/* <div className="mt-6">
-          <h3 className="text-lg font-semibold mb-3 text-white">
-            Policies
-          </h3>
-          <ul className="space-y-2">
-            <li>
-              <a
-                href="/termsconditions"
-                className="hover:text-teal-200 text-gray-200 transition-colors duration-200"
-              >
-                Terms & Conditions
-              </a>
-            </li>
-            <li>
-              <a
-                href="/privacypolicy"
-                className="hover:text-teal-200 text-gray-200 transition-colors duration-200"
-              >
-                Privacy Policy
-              </a>
-            </li>
-            <li>
-              <a
-                href="/refundpolicy"
-                className="hover:text-teal-200 text-gray-200 transition-colors duration-200"
-              >
-                Refund Policy
-              </a>
-            </li>
-          </ul>
-        </div> */}
-            </div>
-
-            {/* Location & Contact Section */}
-            <div className="animate-fade-in-up delay-400">
-              <h3 className="text-lg font-semibold mb-3 text-white">
-                ⏰ Opening Hours
-              </h3>
-              <p className="text-sm text-gray-200 mb-3">
-                Mon-Sun: 05:30 AM to 09:00 PM
-              </p>
-
-              <div className="mt-6">
-                <h3 className="text-lg font-semibold mb-3 text-white">
-                  Policies
-                </h3>
-                <ul className="space-y-2">
-                  <li>
-                    <a
-                      href="/termsconditions"
-                      className="text-white hover:opacity-65 transition-colors duration-200"
-                    >
-                      Terms & Conditions
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/privacypolicy"
-                      className="text-white hover:opacity-65  transition-colors duration-200"
-                    >
-                      Privacy Policy
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/refundpolicy"
-                      className="text-white  hover:opacity-65 transition-colors duration-200"
-                    >
-                      Refund Policy
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            {/* Social & Credits Section */}
-            <div className="animate-fade-in-up delay-600 flex flex-col items-start">
-              <h3 className="text-lg font-semibold mb-3 text-white">
-                Get in Touch
-              </h3>
-
-              <a href="https://maps.app.goo.gl/QDW2DyYZoYKnfqpV8" className="text-sm text-gray-200 mb-3 text-white hover:opacity-65">
-                80, Doctor wattana, 16 Soi Dr. Watthana, Pa Tong, Phuket, 83150,
-                Thailand
-              </a>
-              <p className="text-sm text-gray-200 mb-3">
-                Phone: +66 80 251 1273
-              </p>
-              <a href="mailto:info@aadiyogacenterphuket.com" className="text-sm text-white hover:opacity-65"> Email: info@aadiyogacenterphuket.com </a>
-
-              <div className="flex space-x-4 mt-6">
-                <a
-                  href="https://www.instagram.com/aadiyogacenter.bangkok/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white hover:opacity-65 "
-                >
-                  <FaInstagram className="text-teal-300 w-6 h-6" />
-                </a>
-                <a
-                  href="https://line.me/ti/p/Xu79UdtdLg"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white hover:opacity-65"
-                >
-                  <FaLine className="text-teal-300 w-6 h-6" />
-                </a>
-                <a
-                  href="https://wa.me/66802511273?text=Hi"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white hover:opacity-65"
-                >
-                  <FaWhatsapp className="text-teal-300 w-6 h-6" />
-                </a>
-              </div>
-            </div>
-          </div>
-
-          {/* Footer Bottom Section */}
-          <div className="mt-10 border-t border-teal-700 pt-5 flex flex-col md:flex-row items-center justify-between">
-            <p className="text-sm text-gray-200">
-              &copy; 2024 aadiyogacenterphuket.com. All Rights Reserved. | Designed &
-              Developed by{" "}
-              <a
-                href="https://www.linkedin.com/in/aawesh-manyar/"
-                className="text-white hover:opacity-65 font-bold"
-              >
-                Aawesh Manyar
-              </a>
+    <footer className="bg-[#f5e7e0] text-gray-800 py-10">
+      <div className="container mx-auto px-4">
+        {/* Footer Content */}
+        <div className="flex flex-wrap justify-between gap-8">
+          {/* Logo and Address Section */}
+          <div className="flex flex-col items-center sm:items-start">
+            <img
+              src={logo}// Replace with your logo path
+              alt="Yoga Center Logo"
+              className="w-32 mb-4"
+            />
+            <p className="text-sm text-center sm:text-left">
+              Shlloka Joshi Foundation
+              <br />
+              123 Yoga Street, Wellness City
+              <br />
+              State, ZIP Code
             </p>
           </div>
+
+          {/* Quick Links Section */}
+          <div className="text-center sm:text-left">
+            <h3 className="font-semibold mb-4">Quick Links</h3>
+            <ul className="space-y-2">
+              <li>
+                <a href="/home" className="hover:underline">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="/about" className="hover:underline">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="/events" className="hover:underline">
+                  Events
+                </a>
+              </li>
+              <li>
+                <a href="/contact-us" className="hover:underline">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Policies Section */}
+          <div className="text-center sm:text-left">
+            <h3 className="font-semibold mb-4">Policies</h3>
+            <ul className="space-y-2">
+              <li>
+                <a href="/terms-conditions" className="hover:underline">
+                  Terms & Conditions
+                </a>
+              </li>
+              <li>
+                <a href="/privacy-policy" className="hover:underline">
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a href="/refund-policy" className="hover:underline">
+                  Refund Policy
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Social Media Section (Optional) */}
+          <div className="text-center sm:text-left">
+            <h3 className="font-semibold mb-4">Follow Us</h3>
+            <div className="flex justify-center sm:justify-start gap-4">
+              <a
+                href="#"
+                aria-label="Facebook"
+                className="hover:text-gray-600 transition-colors"
+              >
+                <i className="fab fa-facebook-f"></i>
+              </a>
+              <a
+                href="#"
+                aria-label="Instagram"
+                className="hover:text-gray-600 transition-colors"
+              >
+                <i className="fab fa-instagram"></i>
+              </a>
+              <a
+                href="#"
+                aria-label="Twitter"
+                className="hover:text-gray-600 transition-colors"
+              >
+                <i className="fab fa-twitter"></i>
+              </a>
+            </div>
+          </div>
         </div>
-      </footer>
-    </>
+
+        {/* Copyright Section */}
+        <div className="border-t border-gray-300 mt-8 pt-6 text-center">
+          <p className="text-sm">
+            &copy; 2023 Your Yoga Center Name. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
   );
 };
 

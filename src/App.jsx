@@ -9,8 +9,9 @@ import Events from "./Components/Events";
 // import StorySection from "./Components/StorySection";
 import Gallery from "./Components/Gallery";
 import Contact from "./Components/Contactform";
-import Footer from "./components/Footer";
+import Footer from "./Components/Footer";
 import About from "./Components/About";
+
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
         </Routes>
-        <Footer />
+    
       </div>
     </Router>
   );
